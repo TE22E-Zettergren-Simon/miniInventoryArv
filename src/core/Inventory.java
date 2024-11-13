@@ -11,6 +11,10 @@ public class Inventory {
         items.add(item);
     }
 
+    public Item getItem(int index) {
+        return items.get(index);
+    }
+
     public void display() {
         for (Item item : items) {
             item.display();
